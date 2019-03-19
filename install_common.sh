@@ -1,6 +1,12 @@
 #!/bin/bash
 install() {
-	if [ -x "$(command -v apt-get)" ]; then
+	if [ -x "$(command -v pacman)" ]; then
+		if [ $UID = 0 ]; then
+			pacman -S $1
+		else
+			sudo pacman -S $1
+		fi
+	elif [ -x "$(command -v apt-get)" ]; then
 		if [ $UID = 0 ]; then
 			apt install $1 -y
 		else
