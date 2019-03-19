@@ -25,6 +25,6 @@ install fonts-powerline
 
 install rxvt-unicode
 sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
-
+echo
 install stow
 (cd dotfiles && stow -v -t ~ *)
