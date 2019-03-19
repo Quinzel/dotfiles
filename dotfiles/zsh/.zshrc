@@ -1,5 +1,5 @@
 export ZSH="/home/przemek/.oh-my-zsh"
-ZSH_THEME='powerlevel9k/powerlevel9k'
+ZSH_THEME='spaceship'
 HYPHEN_INSENSITIVE="true"
 COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyyy/mm/dd"
@@ -22,7 +22,6 @@ plugins=(
 	vi-mode
 	web-search
 	)
-source ~/xhome/custom/zsh/powerlevel9k.zsh
 source $ZSH/oh-my-zsh.sh
 
 

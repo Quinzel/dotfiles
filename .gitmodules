@@ -1,3 +1,6 @@
 [submodule "dotfiles/zsh/.oh-my-zsh"]
 	path = dotfiles/zsh/.oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "custom/zsh/spaceship-prompt"]
+	path = custom/zsh/spaceship-prompt
+	url = https://github.com/denysdovhan/spaceship-prompt.git

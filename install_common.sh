@@ -14,7 +14,7 @@ install() {
 install vim
 
 install zsh
-ln -s custom/zsh/powerlevel9k ~/xhome/dotfiles/zsh/.oh-my-zsh/custom/themes
+ln -s ~/xhome/custom/zsh/spaceship-prompt/spaceship.zsh-theme  ~/xhome/dotfiles/zsh/.oh-my-zsh/custom/themes/spaceship.zsh-theme
 
 install tmux
 install ranger
