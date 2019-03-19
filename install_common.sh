@@ -23,3 +23,4 @@ sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
 
 install stow
 (cd dotfiles && stow -v -t ~ *)
+
