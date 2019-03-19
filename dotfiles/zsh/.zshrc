@@ -3,7 +3,7 @@
 
 export ZSH="/home/przemek/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 HYPHEN_INSENSITIVE="true"
 

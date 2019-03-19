@@ -9,9 +9,13 @@ install() {
 	fi
 }
 
+(git pull && git submodule update --init --recursive)
 
 install vim
+
 install zsh
+ln -s custom/zsh/powerlevel9k dotfiles/zsh/.oh-my-zsh/custom/themes
+
 install tmux
 install ranger
 install taskwarior
@@ -23,4 +27,3 @@ sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
 
 install stow
 (cd dotfiles && stow -v -t ~ *)
-
