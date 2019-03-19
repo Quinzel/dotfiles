@@ -21,6 +21,7 @@ install ranger
 install taskwarior
 install i3
 install xsel
+install fonts-powerline
 
 install rxvt-unicode
 sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
