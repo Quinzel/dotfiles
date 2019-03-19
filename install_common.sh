@@ -14,7 +14,7 @@ install() {
 install vim
 
 install zsh
-ln -s custom/zsh/powerlevel9k dotfiles/zsh/.oh-my-zsh/custom/themes
+ln -s custom/zsh/powerlevel9k ~/xhome/dotfiles/zsh/.oh-my-zsh/custom/themes
 
 install tmux
 install ranger
@@ -22,6 +22,8 @@ install taskwarior
 install i3
 install xsel
 install fonts-powerline
+install fonts-font-awesome
+install fortune
 
 install rxvt-unicode
 sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
