@@ -4,6 +4,9 @@ HYPHEN_INSENSITIVE="true"
 COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyyy/mm/dd"
 #ZSH_TMUX_AUTOSTART=true
+
+eval "$(fasd --init auto)"
+
 plugins=(
 	chucknorris
 	command-not-found
