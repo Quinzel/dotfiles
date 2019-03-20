@@ -32,6 +32,7 @@ install fonts-powerline
 install fonts-font-awesome
 install fortune
 install fasd
+install git-flow
 
 if false; then
   wget https://github.com/Peltoche/lsd/releases/download/0.14.0/lsd_0.14.0_amd64.deb
