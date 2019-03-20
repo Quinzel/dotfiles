@@ -33,7 +33,7 @@ install fonts-font-awesome
 install fortune
 install fasd
 
-if false; than
+if false; then
   wget https://github.com/Peltoche/lsd/releases/download/0.14.0/lsd_0.14.0_amd64.deb
   if [ $UID = 0 ]; then
      dpkg -i lsd_0.14.0_amd64.deb
