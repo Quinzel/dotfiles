@@ -1,4 +1,4 @@
-export ZSH="/home/przemek/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME='spaceship'
 HYPHEN_INSENSITIVE="true"
 COMPLETION_WAITING_DOTS="true"
@@ -25,4 +25,4 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 
-
+source $HOME/xhome/custom/zsh/aliases.zsh
