@@ -5,7 +5,7 @@ COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyyy/mm/dd"
 #ZSH_TMUX_AUTOSTART=true
 
-if [ command -v fasd ]; then
+if command -v fasd ; then
   eval "$(fasd --init auto)"
 fi
 
