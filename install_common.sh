@@ -32,12 +32,16 @@ install fonts-powerline
 install fonts-font-awesome
 install fortune
 
-wget https://github.com/Peltoche/lsd/releases/download/0.14.0/lsd_0.14.0_amd64.deb
-if [ $UID = 0 ]; then
-  dpkg -i lsd_0.14.0_amd64.deb
-else
-  sudo dpkg -i lsd_0.14.0_amd64.deb
-fi 
+if false; than
+  wget https://github.com/Peltoche/lsd/releases/download/0.14.0/lsd_0.14.0_amd64.deb
+  if [ $UID = 0 ]; then
+     dpkg -i lsd_0.14.0_amd64.deb
+  else
+     sudo dpkg -i lsd_0.14.0_amd64.deb
+  fi 
+   git clone https://github.com/ryanoasis/nerd-fonts.git custom/zsh/nerd-fonts
+  (cd custom/zsh/nerd-fonts && ./install.sh)
+fi
 
 install rxvt-unicode
 sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
