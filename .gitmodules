@@ -4,3 +4,6 @@
 [submodule "custom/zsh/spaceship-prompt"]
 	path = custom/zsh/spaceship-prompt
 	url = https://github.com/denysdovhan/spaceship-prompt.git
+[submodule "custom/powerlevel9k"]
+	path = custom/powerlevel9k
+	url = https://github.com/bhilburn/powerlevel9k.git

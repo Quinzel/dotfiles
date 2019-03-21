@@ -45,6 +45,9 @@ if false; then
   (cd custom/zsh/nerd-fonts && ./install.sh)
 fi
 
+git clone https://github.com/bhilburn/powerlevel9k.git custom/powerlevel9k
+ln -s ~/xhome/custom/powerlevel9k ~/.oh-my-zsh/custom/themes/powerlevel9k
+
 install rxvt-unicode
 sudo update-alternatives --set x-terminal-emulator /usr/bin/urxvt
 echo
